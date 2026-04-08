@@ -1,10 +1,10 @@
 import logging
 from typing import List
 
-from backend.agents.task_agent import TaskAgent
-from backend.agents.calendar_agent import CalendarAgent
-from backend.agents.notes_agent import NotesAgent
-from backend.models.schemas import Intent
+from agents.task_agent import TaskAgent
+from agents.calendar_agent import CalendarAgent
+from agents.notes_agent import NotesAgent
+from models.schemas import Intent
 
 logger = logging.getLogger("orchestrator")
 

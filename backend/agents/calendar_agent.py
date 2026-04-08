@@ -1,7 +1,7 @@
 import re
 from datetime import datetime, timedelta
 
-from backend.database.db import delete_events, get_events, insert_event, update_event
+from database.db import delete_events, get_events, insert_event, update_event
 
 # Calendar agent manages event creation and schedule views.
 

@@ -1,6 +1,6 @@
 import re
 
-from backend.database.db import (
+from database.db import (
     delete_completed_tasks,
     delete_tasks,
     get_tasks,

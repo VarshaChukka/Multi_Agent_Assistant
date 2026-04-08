@@ -1,6 +1,6 @@
 import re
 
-from backend.database.db import delete_notes, get_notes, insert_note
+from database.db import delete_notes, get_notes, insert_note
 
 # Notes agent manages saving, listing, and summarizing notes.
 
